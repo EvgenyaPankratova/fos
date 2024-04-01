@@ -5,7 +5,7 @@ const HomePage: NextPage = () => (
     Тестовое задание
     {' '}
     <span className="text-blue">
-      Slider-Beautiful
+      FOS
     </span>
   </h1>
 );
