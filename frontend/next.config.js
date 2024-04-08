@@ -1,9 +1,9 @@
   /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  compiler: {
-    removeConsole: !!process.env.NODE_ENV,
-  },
+  // compiler: {
+  //   removeConsole: !!process.env.NODE_ENV,
+  // },
     compress: true,
   env: {
     API_URL: process.env.API_URL
